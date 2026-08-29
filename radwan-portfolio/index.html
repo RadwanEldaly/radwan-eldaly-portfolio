@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Radwan Eldaly — Front-End Developer</title>
+<meta name="description" content="Radwan Eldaly, Front-End Developer. Building real-world web experiences with React, Next.js and modern frontend technologies." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Skip link for accessibility -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Custom cursor (desktop only, injected/controlled via JS) -->
+<div class="cursor" aria-hidden="true">
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+</div>
+
+<!-- Section index rail — signature element -->
+<aside class="index-rail" aria-hidden="true">
+  <span class="index-rail__label">Hero</span>
+</aside>
+
+<!-- Navigation -->
+<header class="nav" data-nav>
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">Radwan Eldaly</a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="nav__toggle" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu" data-mobile-menu>
+    <a href="#work" data-menu-link>Work</a>
+    <a href="#about" data-menu-link>About</a>
+    <a href="#contact" data-menu-link>Contact</a>
+    <div class="mobile-menu__foot">
+      <a href="https://github.com/RadwanEldaly" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/radwan-eldaly" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top" data-section="Hero">
+    <div class="hero__inner">
+      <p class="eyebrow hero__eyebrow" data-reveal-fade>Front-End Developer — Giza, Cairo</p>
+
+      <h1 class="hero__title" data-hero-title>
+        <span class="line"><span class="word">I</span> <span class="word">build</span> <span class="word">things</span></span>
+        <span class="line"><span class="word">for</span> <span class="word italic">the</span> <span class="word">web.</span></span>
+      </h1>
+
+      <div class="hero__foot">
+        <p class="hero__text" data-reveal-fade>
+          I build real-world web experiences with React, Next.js, TypeScript and Tailwind CSS —
+          with hands-on work in e-commerce and Shopify. I care about responsive, user-friendly
+          interfaces and about solving practical problems through code.
+        </p>
+
+        <div class="hero__ctas" data-reveal-fade>
+          <a href="#work" class="btn btn--primary">View my work</a>
+          <a href="#contact" class="btn btn--ghost">Let's talk</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORKS -->
+  <section class="work" id="work" data-section="Work">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Selected Work</p>
+      <h2 class="section-title" data-reveal>Things I've shipped.</h2>
+    </div>
+
+    <div class="work__grid">
+
+      <article class="work-tile" data-work-tile tabindex="0">
+        <div class="work-tile__media">
+          <img src="assets/images/Gemini_Generated_Image_rt3lm8rt3lm8rt3l.jpg" alt="Dentista Admin Dashboard project screenshot" loading="lazy" data-tile-img />
+        </div>
+        <div class="work-tile__overlay">
+          <span class="work-tile__index">01</span>
+          <div class="work-tile__meta">
+            <h3 class="work-tile__name">Dentista Admin Dashboard</h3>
+            <span class="work-tile__tags">E-Commerce · Shopify · 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-tile" data-work-tile tabindex="0">
+        <div class="work-tile__media">
+          <img src="assets/images/Gemini_Generated_Image_7jvrz07jvrz07jvr.jpg" alt="Kemo Store project screenshot" loading="lazy" data-tile-img />
+        </div>
+        <div class="work-tile__overlay">
+          <span class="work-tile__index">02</span>
+          <div class="work-tile__meta">
+            <h3 class="work-tile__name">Kemo Store</h3>
+            <span class="work-tile__tags">E-Commerce · 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-tile" data-work-tile tabindex="0">
+        <div class="work-tile__media">
+          <img src="assets/images/Gemini_Generated_Image_vmzh4qvmzh4qvmzh.jpg" alt="GNOCE Store project screenshot" loading="lazy" data-tile-img />
+        </div>
+        <div class="work-tile__overlay">
+          <span class="work-tile__index">03</span>
+          <div class="work-tile__meta">
+            <h3 class="work-tile__name">GNOCE Store</h3>
+            <span class="work-tile__tags">Shopify · 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-tile" data-work-tile tabindex="0">
+        <div class="work-tile__media">
+          <img src="assets/images/Gemini_Generated_Image_c6vwt4c6vwt4c6vw.jpg" alt="Portfolio project screenshot" loading="lazy" data-tile-img />
+        </div>
+        <div class="work-tile__overlay">
+          <span class="work-tile__index">04</span>
+          <div class="work-tile__meta">
+            <h3 class="work-tile__name">Portfolio</h3>
+            <span class="work-tile__tags">Web Development · 2026</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about" data-section="About">
+    <div class="about__grid">
+      <div class="about__side">
+        <p class="eyebrow" data-reveal>About</p>
+        <h2 class="about__title" data-reveal>I learn by building.</h2>
+      </div>
+      <div class="about__body">
+        <p data-reveal>
+          I'm Radwan Eldaly, a Front-End Developer focused on building real-world digital
+          experiences. I work mainly with React, Next.js, TypeScript and Tailwind CSS, and I've
+          picked up practical e-commerce experience building and customizing Shopify storefronts.
+        </p>
+        <p data-reveal>
+          Most of what I know comes from actually building things — shipping projects, running
+          into real problems, and working out how to make the result cleaner and more usable.
+          I'm looking to keep growing and to contribute as part of a professional development team.
+        </p>
+        <div class="about__facts" data-reveal>
+          <div class="about__fact">
+            <span class="about__fact-label">Based in</span>
+            <span class="about__fact-value">Giza, Cairo</span>
+          </div>
+          <div class="about__fact">
+            <span class="about__fact-label">Focus</span>
+            <span class="about__fact-value">React · Next.js · Shopify</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOCUS / CAPABILITIES -->
+  <section class="focus" id="focus" data-section="Focus">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Focus</p>
+      <h2 class="section-title" data-reveal>Where I put the work in.</h2>
+    </div>
+
+    <div class="focus__grid">
+      <div class="focus__item" data-reveal>
+        <h3>Frontend Development</h3>
+        <ul>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>TypeScript</li>
+          <li>JavaScript</li>
+          <li>HTML &amp; CSS</li>
+          <li>Tailwind CSS</li>
+        </ul>
+      </div>
+      <div class="focus__item" data-reveal>
+        <h3>E-Commerce</h3>
+        <ul>
+          <li>Shopify</li>
+          <li>Liquid</li>
+          <li>Storefront customization</li>
+          <li>Product experiences</li>
+        </ul>
+      </div>
+      <div class="focus__item" data-reveal>
+        <h3>UI Development</h3>
+        <ul>
+          <li>Responsive design</li>
+          <li>Mobile-first development</li>
+          <li>Component-based interfaces</li>
+          <li>Interaction design</li>
+        </ul>
+      </div>
+      <div class="focus__item" data-reveal>
+        <h3>Web Technologies</h3>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>REST APIs</li>
+          <li>Vercel</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILT FOR -->
+  <section class="built-for" data-section="Built For">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Projects</p>
+      <h2 class="section-title" data-reveal>Built for.</h2>
+    </div>
+    <ul class="built-for__list">
+      <li data-reveal><span>Dentista Admin Dashboard</span></li>
+      <li data-reveal><span>Kemo Store</span></li>
+      <li data-reveal><span>GNOCE</span></li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact" data-section="Contact">
+    <div class="contact__inner">
+      <p class="eyebrow" data-reveal>Contact</p>
+      <h2 class="contact__title" data-reveal>Have a project<br />in mind?</h2>
+      <p class="contact__sub" data-reveal>Let's build something.</p>
+
+      <div class="contact__links" data-reveal>
+        <a href="mailto:radwaneldaly14@gmail.com" class="contact__link">
+          <span>Email</span>
+          <span class="contact__link-value">radwaneldaly14@gmail.com</span>
+        </a>
+        <a href="https://github.com/RadwanEldaly" target="_blank" rel="noopener" class="contact__link">
+          <span>GitHub</span>
+          <span class="contact__link-value">github.com/RadwanEldaly</span>
+        </a>
+        <a href="https://www.linkedin.com/in/radwan-eldaly" target="_blank" rel="noopener" class="contact__link">
+          <span>LinkedIn</span>
+          <span class="contact__link-value">linkedin.com/in/radwan-eldaly</span>
+        </a>
+        <a href="tel:+201123170163" class="contact__link">
+          <span>Phone</span>
+          <span class="contact__link-value">+20 112 317 0163</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="footer__name">Radwan Eldaly</span>
+      <span class="footer__role">Front-End Developer</span>
+    </div>
+    <div class="footer__links">
+      <a href="https://github.com/RadwanEldaly" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/radwan-eldaly" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:radwaneldaly14@gmail.com">Email</a>
+    </div>
+  </div>
+  <div class="footer__bottom">© 2026 Radwan Eldaly</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
